@@ -113,6 +113,7 @@ void deleteafterpos(node **start,int after){
 }
 int main(){
     node *start;
+    start=NULL;
     int choice,item,after;
     while(1){
         cout<<"Welcome to Linked list program"<<endl;
